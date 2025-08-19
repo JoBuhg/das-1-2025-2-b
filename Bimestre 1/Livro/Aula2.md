@@ -1,8 +1,5 @@
 # aula de DAS 04/08
 
-## é normal ter dificuldade
-_(começo bom kkkk)_
-
 ## Getter e Setters
 
 servem para a implementação do encapsulamento para a proteção e a ocultação de informações senviveis do seu codigo.
@@ -18,7 +15,7 @@ se nescessário, quando se perceber que o codigo está fazendo mais do que o nes
 Acoplamento é a força da conexão entre duas classes, por exemplo uma variavel dentro de objeto A com o tipo do Objeto B, ou seja acoplamento é o quão dependente uma classe se torna da outra, com o intuito de manter essa dependencia o menor possivel. Com isso existem algumas nuancias para definir Um bom acoplamento de um acoplamento ruim.
 
 ## Alto acoplamento (ruim)
- os módulos de um sistema são muito dependentes entre si, o que dificulta manutenção e reutilização
+ os módulos de um sistema são muito dependentes entre si, o que dificulta manutenção e reutilização.
 
 ## Baixo acoplamento (bom)
 os módulos têm pouca dependência entre si, facilitando a manutenção, testes e reutilização.
@@ -26,8 +23,8 @@ os módulos têm pouca dependência entre si, facilitando a manutenção, testes
 # Padrão SOLID
 É um acronimo das seguintes regras para a construção de programas orientados a Objetos
 
-- Single Responsibility Principle
-- Open/Closed Principle
-- Liskov Substitution Principle
-- Interface Segregation Principle
-- Dependency Inversion Principle
+- S: single Responsibility Principle
+- O: open/Closed Principle
+- L: liskov Substitution Principle
+- I: interface Segregation Principle
+- D: dependency Inversion Principle
