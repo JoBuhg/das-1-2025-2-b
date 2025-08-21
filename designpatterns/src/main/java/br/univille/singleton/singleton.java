@@ -1,3 +1,5 @@
+package br.univille.singleton;
+
 public class singleton {
     private static singleton instance; // variavel estatica que guarda a instância única
 
