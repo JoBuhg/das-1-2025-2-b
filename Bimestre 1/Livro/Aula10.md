@@ -17,7 +17,7 @@ Um arquiteto eficaz mantém atenção constante nas três camadas da pirâmide d
 
 - **O que eu não sei que não sei:** abertura para o desconhecido e disposição para aprender.
 
-Em outras palavras, um arquiteto se beneficia mais ao conhecer cinco alternativas para resolver um problema mesmo que superficialmente do que dominar apenas uma solução. Essa visão ampla permite tomar decisões mais estratégicas, avaliar trade-offs e adaptar o sistema às necessidades reais do negócio.
+Em outras palavras, um arquiteto se beneficia mais ao conhecer cinco alternativas para resolver um problema mesmo que superficialmente do que dominar apenas uma solução. Essa visão ampla permite tomar decisões mais estratégicas, avaliar trade-offs e adaptar o sistema às necessidades reais do negócioe, construir uma base ampla é importante para então especializar-se em temas especificos.
 
 ## Temas Interessantes descobertos na aula:
 
