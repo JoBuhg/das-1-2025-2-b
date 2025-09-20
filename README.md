@@ -1,7 +1,8 @@
 # das-1-2025-2-b
 ## Resumos das aulas
 
-Todos os resumos contidos neste arquivo são versões enxutas dos arquivos contidos na [pasta Bimestre 1 / Livro](https://github.com/JoBuhg/das-1-2025-2-b/tree/main/Bimestre%201/Livro)
+Todos os resumos contidos neste arquivo são versões enxutas dos arquivos contidos na pasta [Bimestre 1 / Livro](https://github.com/JoBuhg/das-1-2025-2-b/tree/main/Bimestre%201/Livro)
+
 ---
 ### Aula 31/07
 
