@@ -1,6 +1,8 @@
 # das-1-2025-2-b
 ## Resumos das aulas
 
+Todos os resumos contidos neste arquivo são versões enxutas dos arquivos contidos na [pasta Bimestre 1 / Livro](https://github.com/JoBuhg/das-1-2025-2-b/tree/main/Bimestre%201/Livro)
+
 ### Aula 31/07
 
 **Abstração**  
@@ -145,6 +147,13 @@ Focas são mamíferos aquáticos adaptados a regiões frias. 🦭
 - **Tópico (pub/sub):** 1 mensagem → vários consumidores. Fácil de escalar; mensagens podem precisar ser mais ricas/complexas.  
 - **Fila:** 1:1 (cada fila para um serviço). Mensagens armazenadas; maior acoplamento entre produtor e consumidores.  
 - **Fan-out (híbrido):** tópico distribui para filas específicas — reduz acoplamento e melhora observabilidade/escalabilidade, mas aumenta custo/complexidade.
+
+# Conteudos Ultilizados:
+
+- [Livro Eng Soft Moderna - Cap 7](https://engsoftmoderna.info/cap7.html)
+- [Fundamentos da Arquitetura de Software](https://integrada.minhabiblioteca.com.br/reader/books/9788550819754/epubcfi/6/2%5B%3Bvnd.vst.idref%3Dcover%5D!/4/2/2%4051:1)
+- [Padrões de Projeto Guru](https://refactoring.guru/design-patterns)
+- [Introdução a DevOps](https://learn.microsoft.com/pt-br/training/modules/introduction-to-devops/2-what-is-devops?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-work-git-for-enterprise-devops)
 
 **Conceito:**  
 - **Trade-off:** compensação entre benefícios e custos ao tomar decisões arquiteturais.
