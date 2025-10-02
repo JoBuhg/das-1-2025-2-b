@@ -2,9 +2,9 @@
     "configurations": [
         {
             "type": "java",
-            "name": "publisher",
+            "name": "producer",
             "request": "launch",
-            "mainClass": "br.univille.publisher",
+            "mainClass": "br.univille.producer",
             "projectName": "eventos"
         },
         {
