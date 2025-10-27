@@ -43,4 +43,15 @@
 
  ### Falácia 3: A largura de Banda é infinita
 
- 
+ Em arquitetúras monolíticas a largura de banda não demonstra ser um problema, pois assim que o processamento entra em um bloco monolítico, pouca ou nenhuma largura de banda e requerida para processar a requisição.
+ O que ja não pode ser dito de uma arquitetura distribuída como microserviços por exemplo, onde a comunicação com e entre estes serviços ultiliza muita banda, o que causa lentidão nas redes e impactando a latencia e a confiabilidade.
+ Uma tecnica que pode causar taís problemas se usada indevidamente se chama **Stamp Coupling** que é uma forma de acoplamento que trabalha pegando informações entre modulos, por exemplo, um serviço de carriho de compras que precisa das informações do cliente para atribuir a quem o carrinho pertence,o que pode ser problematico caso a informação recebida seja mais do que o nescessário causando mais banda nescessária para passar tais informações entre os modulos.
+ Podemos diminuir o tamanho da banda nescessária para realizar essas comunicações com algumas técnicas como:
+
+ - Criar endpoints da API RESTful privados;
+ - Usar seletores de campo no contrato;
+ - Usar GRaphQL para desacoplar os contratos;
+ - Usar cotratos baseados em valores com contratos baseados no consumidor;
+ - Ultilizar endpoints de mensageria interna;
+
+ Não importa a técnica ultilizada, assegurar que a quantiade mínima de dados seja passada entre os serviços é a melhor resposta para um sistema distribuido.
