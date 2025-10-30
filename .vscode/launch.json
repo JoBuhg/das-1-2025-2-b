@@ -2,10 +2,11 @@
     "configurations": [
         {
             "type": "java",
-            "name": "producer",
+            "name": "Main",
             "request": "launch",
-            "mainClass": "br.univille.producer",
-            "projectName": "eventos"
+            "mainClass": "br.univille.Main",
+            "projectName": "pipeline",
+            "envFile": "${workspaceFolder}/.env"
         },
         {
             "type": "java",
