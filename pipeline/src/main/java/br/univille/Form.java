@@ -51,7 +51,7 @@ public class Form extends JFrame {
     // Classe interna para o painel de desenho
     class DrawingPanel extends JPanel {
         private List<Point> points = new ArrayList<>();
-        private final int PIXEL_SIZE = 30;
+        private final int PIXEL_SIZE = 6;
         
         public List<Point> getPoints() {
             return points;
