@@ -55,3 +55,26 @@
  - Ultilizar endpoints de mensageria interna;
 
  Não importa a técnica ultilizada, assegurar que a quantiade mínima de dados seja passada entre os serviços é a melhor resposta para um sistema distribuido.
+
+
+ ### Falácia 4: A Rede é Segura
+
+A maioria dos arquitetos e desenvolvedores estão tão acostumados a redes privadas virtuais(VPNs) e redes confiaveis com firewalls que tendem a esquecer que a rede por si só não é segura, e quando a sua aplicação depende firmemente da qualidadde e segurança da sua rede adcionamos ainda mais um pilar de complexidade as arquiteturas distribuidas.
+
+### Falácia 5: A Topologia Nunca Muda
+
+Outra complicação que muita das vezes passa despercebida pelos arquitetos, é a questão de que como seu serviço é baseado na sua rede, qualquer atualização da mesma deve sempre ser planejadas com a equipe de infraestrutura e administradores da rede para evitar que uma atualização na rede pare o serviço inteiro.
+
+### Falácia 6: Existe Apenas Um Administrador
+
+Está é uma das que os arquitetos mais tendem a cair, pressupondo que cada area possuíra apenas um administrador da rede, quando na verdade são varios admnistradores que tem que ser informados e coordenados sobre as condições da aplicação quanto a rede.
+
+### Falácia 7: O Custo de Trasnsporte é Zero
+
+Aqui muitos podem se confundir com a latencia da rede, mas na verdade estamos falando do custo monetário de fazer uma chamada REST ultilizada, basicamente deve ser pensado no custo da infraestrutura de rede para manter uma aplicação de arquitetura distribuida.
+
+### Falácia 8: A Rede É Homogenêa
+
+Existe tambem a préssuposição de que existe apenas um fornecedor para o hatdware de rede, o que definitivamente não é verdade a maioria das empresas tem diversos fornecedores de hardware de rede em sua infraestrutura. Isso é relevante pois se ultilizarmos dois hardwares de fornecedores diferente que funcionam bem por si mesmos, podem acabar entrando em conflito e tendoperdas de pacotes que impactam diretamente na confiabilidade da rede.
+
+## Outras Considerações Distribuídas ...
