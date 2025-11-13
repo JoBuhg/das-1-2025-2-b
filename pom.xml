@@ -17,6 +17,10 @@
         <module>microkernel-kernel</module>
         <module>microkernel-plugin</module>
         <module>pipeline</module>    
+
+
+        <module>demo1</module>
+        <module>demo2</module>
     </modules>
 
     
