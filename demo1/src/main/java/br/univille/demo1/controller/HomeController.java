@@ -21,6 +21,7 @@ public class HomeController {
             client.invokeMethod("demo2", "/api/v1/startBSync",
                 mensagem,HttpExtension.POST);
         } catch (Exception e) {
+            e.printStackTrace();
         }
 
         return ResponseEntity.ok().build();
